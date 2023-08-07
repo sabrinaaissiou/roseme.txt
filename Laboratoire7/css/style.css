@@ -1,0 +1,89 @@
+h1,h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#titre{
+    background-image:url('..\img\contacts.jpg');
+    background-size: cover;
+    font-size: 3em;
+    text-align: center;
+    color : #6b493d;
+    padding: 5vh 0px;
+}
+
+#titre a:link{
+    color: #6b493d;
+
+}
+#titre a:visited{
+    color: #6b493d;
+}
+li{
+    display: inline-block;
+
+
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 5px outset #4f3126;
+}
+nav a:active {
+    border: 5px inset #4f3126;
+}
+#centerer{
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+li:hover{
+background-color: #6b493d;
+}
+
+li a:link{
+    color: white;
+}
+li a:visited{
+    color: white;
+}
+li a :active{
+    border: 5px outset #4f3126;
+}
+
+ul{
+    text-align: center;
+    background-color: #301c15;
+}
+
+footer{
+    background-color: #301c15;
+    color: #eddfca;
+    text-align: center;
+    padding: 5dvh;
+}
+img{
+    width: 300px;
+    height: 250px;
+    margin-bottom: 25px ; 
+}
+
+  #centerer a:link ,a:visited{
+    color :#4f3126;
+}
+#centerer a {
+    display: inline-block;
+    text-decoration: none;
+    border: solid #301c15;
+    margin: 15px;
+    padding:20px;
+}
+#centerer  a:hover {
+    box-shadow: 0 0 1em #301c15;
+
+}
+h2{
+    font-size: 40px; 
+}
+
